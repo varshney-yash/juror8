@@ -1,0 +1,72 @@
+# ---- Backend (Django) ---- #
+backend/__pycache__/
+backend/*.py[cod]
+backend/*$py.class
+
+# Django specific
+backend/*.log
+backend/db.sqlite3
+backend/db.sqlite3-journal
+
+# Environment variables
+backend/.env
+backend/*.env
+
+# PyInstaller
+backend/*.manifest
+backend/*.spec
+
+# Installer logs
+backend/pip-log.txt
+backend/pip-delete-this-directory.txt
+
+# ---- Frontend (React/Vite) ---- #
+frontend/node_modules/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/pnpm-debug.log*
+
+# Vite output
+frontend/dist/
+frontend/.vite/
+
+# Local development environment files
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# Static build files
+frontend/build/
+
+# Dependency directories
+frontend/.pnp/
+frontend/.pnp.js
+
+# Miscellaneous
+frontend/*.log
+
+# ---- IDE/Editor Specific ---- #
+# VSCode
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-workspace
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Linux
+*.swp
+
+# ---- Git ---- #
+# Git diff/patches
+*.diff
+*.patch
